@@ -56,8 +56,8 @@ The following endpoints from the Postman collection have been implemented and ar
 
 1.  **Clone the repository:**
     ```
-    git clone <your-repo-link>
-    cd kpa_backend_assignment
+    git clone https://github.com/Aftab073/kpa_backend
+    cd kpa_backend
     ```
 
 2.  **Set up environment variables:**

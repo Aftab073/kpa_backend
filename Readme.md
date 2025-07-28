@@ -82,3 +82,21 @@ docker-compose ps
 
 Execute the alembic command inside the container
 docker exec -it <container_id> alembic upgrade head
+
+### Running Without Docker (Optional)
+
+1. Create a virtual environment and activate it:
+```bash
+python -m venv venv
+source venv/bin/activate  # For Linux/macOS
+venv\Scripts\activate     # For Windows
+
+
+2. Install dependencies:
+
+pip install -r requirements.txt
+
+3. Set environment variables via .env
+
+4. Run the API:
+uvicorn app.main:app --reload

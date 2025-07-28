@@ -26,7 +26,7 @@ def add_wheel_specification(
         "message": "Wheel specification submitted successfully.",
         "data": {
             "formNumber": form.formNumber,
-            "submittedBy": form.submittedBy,
+            "submittedBy": form.sumittedBy,
             "submittedDate": form.submittedDate.isoformat(),
             "status": "Saved"
         }
